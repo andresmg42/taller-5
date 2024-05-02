@@ -60,12 +60,12 @@ def crearMatrizC(
 }
 
 def multMatrizRec(m1:Matriz,m2:Matriz):Matriz={
-    
-if(m1.length==1){
+val l=m1.length 
+if(l==1){
   Vector(Vector(m1(0)(0) * m2(0)(0))):Matriz
 }else{
 
-val l=m1.length
+
 val mitad=l/2
 val A11=subMatriz(m1,0,0,mitad)
 val A12=subMatriz(m1,0,mitad,mitad)
@@ -117,6 +117,90 @@ def multMatrizRecPar(m1: Matriz, m2: Matriz): Matriz = {
       )
       crearMatrizC(c11, c12, c21, c22, mitad)
     }
+  }
+}
+
+def restaMatriz(m1: Matriz, m2: Matriz): Matriz = {
+  Vector.tabulate(m1.length, m1.length)((i, j) => m1(i)(j) - m2(i)(j))
+}
+
+def multStrassen(m1: Matriz, m2: Matriz): Matriz = {
+  val l = m1.length
+  if (l == 1) {
+    Vector(Vector(m1(0)(0) * m2(0)(0))): Matriz
+  } else {
+    val mitad = l / 2
+    val (a11, a12, a21, a22) = (
+      subMatriz(m1, 0, 0, mitad),
+      subMatriz(m1, 0, mitad, mitad),
+      subMatriz(m1, mitad, 0, mitad),
+      subMatriz(m1, mitad, mitad, mitad)
+    )
+
+    val (b11, b12, b21, b22) = (
+      subMatriz(m2, 0, 0, mitad),
+      subMatriz(m2, 0, mitad, mitad),
+      subMatriz(m2, mitad, 0, mitad),
+      subMatriz(m2, mitad, mitad, mitad)
+    )
+
+    val P1 = multStrassen(a11, restaMatriz(b12, b22))
+    val P2 = multStrassen(sumMatriz(a11, a12), b22)
+    val P3 = multStrassen(sumMatriz(a21, a22), b11)
+    val P4 = multStrassen(a22, restaMatriz(b21, b11))
+    val P5 = multStrassen(sumMatriz(a11, a22), sumMatriz(b11, b22))
+    val P6 = multStrassen(restaMatriz(a12, a22), sumMatriz(b21, b22))
+    val P7 = multStrassen(restaMatriz(a11, a21), sumMatriz(b11, b12))
+
+    val (c11, c12, c21, c22) = (
+      sumMatriz(sumMatriz(P5, P6), restaMatriz(P4, P2)),
+      sumMatriz(P1, P2),
+      sumMatriz(P3, P4),
+      sumMatriz(P5, restaMatriz(restaMatriz(P1, P3), P7))
+    )
+
+    crearMatrizC(c11, c12, c21, c22, l)
+
+  }
+}
+
+def multStrassenPar(m1: Matriz, m2: Matriz): Matriz = {
+  val l = m1.length
+  if (l == 1) {
+    Vector(Vector(m1(0)(0) * m2(0)(0))): Matriz
+  } else {
+    val mitad = l / 2
+    val (a11, a12, a21, a22) = (
+      subMatriz(m1, 0, 0, mitad),
+      subMatriz(m1, 0, mitad, mitad),
+      subMatriz(m1, mitad, 0, mitad),
+      subMatriz(m1, mitad, mitad, mitad)
+    )
+
+    val (b11, b12, b21, b22) = (
+      subMatriz(m2, 0, 0, mitad),
+      subMatriz(m2, 0, mitad, mitad),
+      subMatriz(m2, mitad, 0, mitad),
+      subMatriz(m2, mitad, mitad, mitad)
+    )
+
+    val P1 = task(multStrassen(a11, restaMatriz(b12, b22)))
+    val P2 = task(multStrassen(sumMatriz(a11, a12), b22))
+    val P3 = task(multStrassen(sumMatriz(a21, a22), b11))
+    val P4 = task(multStrassen(a22, restaMatriz(b21, b11)))
+    val P5 = task(multStrassen(sumMatriz(a11, a22), sumMatriz(b11, b22)))
+    val P6 = task(multStrassen(restaMatriz(a12, a22), sumMatriz(b21, b22)))
+    val P7 = task(multStrassen(restaMatriz(a11, a21), sumMatriz(b11, b12)))
+
+    val (c11, c12, c21, c22) = (
+      sumMatriz(sumMatriz(P5.join, P6.join), restaMatriz(P4.join, P2.join)),
+      sumMatriz(P1.join, P2.join),
+      sumMatriz(P3.join, P4.join),
+      sumMatriz(P5.join, restaMatriz(restaMatriz(P1.join, P3.join), P7.join))
+    )
+
+    crearMatrizC(c11, c12, c21, c22, l)
+
   }
 }
 

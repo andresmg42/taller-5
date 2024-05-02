@@ -7932,3 +7932,11 @@ WARNING: Unmatched cancel notification for request id 11646
 2024.05.01 20:00:30 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 1.07s[0m
 May 01, 2024 8:01:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 11905
+May 01, 2024 8:13:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12000
+2024.05.01 20:14:17 INFO  compiling root (1 scala source)[0m
+2024.05.01 20:14:17 INFO  time: compiled root in 0.69s[0m
+2024.05.01 20:14:20 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 1.41s[0m
+2024.05.01 20:14:24 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 1.47s[0m
+2024.05.01 20:15:17 INFO  compiling root (1 scala source)[0m
+2024.05.01 20:15:17 INFO  time: compiled root in 0.82s[0m

@@ -2,6 +2,7 @@ import scala.util.Random
 import common._
 import Benchmark._
 import math._
+import scala.collection.parallel.immutable._
 type Matriz = Vector[Vector[Int]]
 
 val random = new Random()
@@ -16,7 +17,7 @@ def vectorAlAzar(long: Int, vals: Int): Vector[Int] = {
   v
 }
 
-def productoPunto(v1: Vector[Int], v2: Vector[Int]): Int = {
+def prodPunto(v1: Vector[Int], v2: Vector[Int]): Int = {
   (v1 zip v2).map({ case (i, j) => (i * j) }).sum
 }
 
@@ -28,7 +29,7 @@ def transpuesta(m: Matriz): Matriz = {
 def multMatriz(m1: Matriz, m2: Matriz): Matriz = {
   val l = m1.length
   val T = transpuesta(m2)
-  Vector.tabulate(l, l)((i, j) => productoPunto(m1(i), T(j)))
+  Vector.tabulate(l, l)((i, j) => prodPunto(m1(i), T(j)))
 }
 
 val m1 = Vector(
@@ -54,7 +55,7 @@ Vector.tabulate(l,l)((i,j)=>productoPunto(m1(i),transpuesta(m2)(j)))*/
 def multMatrizPar(m1: Matriz, m2: Matriz): Matriz = {
   val l = m1.length
   val T = transpuesta(m2)
-  Vector.tabulate(l, l)((i, j) => task(productoPunto(m1(i), T(j)))) map (v =>
+  Vector.tabulate(l, l)((i, j) => task(prodPunto(m1(i), T(j)))) map (v =>
     v map (_.join)
   )
 }
@@ -130,10 +131,10 @@ def crearMatrizC(
     c12: Matriz,
     c21: Matriz,
     c22: Matriz,
-    mitad:Int
+    l: Int
 ): Matriz = {
-
-  Vector.tabulate(4, 4)((i, j) =>
+  val mitad = l / 2
+  Vector.tabulate(l, l)((i, j) =>
     if (i < mitad && j < mitad) c11(i)(j)
     else if (i < mitad) c12(i)(j - mitad)
     else if (j < mitad) c21(i - mitad)(j)
@@ -147,6 +148,7 @@ def multMatrizRecPar(m1: Matriz, m2: Matriz): Matriz = {
   if (l == 1) {
     Vector(Vector(m1(0)(0) * m2(0)(0))): Matriz
   } else {
+
     val mitad = l / 2
     val A11 = subMatriz(m1, 0, 0, mitad)
     val A12 = subMatriz(m1, 0, mitad, mitad)
@@ -161,7 +163,7 @@ def multMatrizRecPar(m1: Matriz, m2: Matriz): Matriz = {
       val c12 = sumMatriz(multMatrizRec(A11, B12), multMatrizRec(A12, B22))
       val c21 = sumMatriz(multMatrizRec(A21, B11), multMatrizRec(A22, B21))
       val c22 = sumMatriz(multMatrizRec(A21, B12), multMatrizRec(A22, B22))
-      crearMatrizC(c11, c12, c21, c22, mitad)
+      crearMatrizC(c11, c12, c21, c22, l)
     } else {
       val (c11, c12, c21, c22) = parallel(
         sumMatriz(multMatrizRec(A11, B11), multMatrizRec(A12, B21)),
@@ -169,17 +171,109 @@ def multMatrizRecPar(m1: Matriz, m2: Matriz): Matriz = {
         sumMatriz(multMatrizRec(A21, B11), multMatrizRec(A22, B21)),
         sumMatriz(multMatrizRec(A21, B12), multMatrizRec(A22, B22))
       )
-      crearMatrizC(c11, c12, c21, c22, mitad)
+      crearMatrizC(c11, c12, c21, c22, l)
     }
   }
 }
 
+def restaMatriz(m1: Matriz, m2: Matriz): Matriz = {
+  Vector.tabulate(m1.length, m1.length)((i, j) => m1(i)(j) - m2(i)(j))
+}
+
+def multStrassen(m1: Matriz, m2: Matriz): Matriz = {
+  val l = m1.length
+  if (l == 1) {
+    Vector(Vector(m1(0)(0) * m2(0)(0))): Matriz
+  } else {
+    val mitad = l / 2
+    val (a11, a12, a21, a22) = (
+      subMatriz(m1, 0, 0, mitad),
+      subMatriz(m1, 0, mitad, mitad),
+      subMatriz(m1, mitad, 0, mitad),
+      subMatriz(m1, mitad, mitad, mitad)
+    )
+
+    val (b11, b12, b21, b22) = (
+      subMatriz(m2, 0, 0, mitad),
+      subMatriz(m2, 0, mitad, mitad),
+      subMatriz(m2, mitad, 0, mitad),
+      subMatriz(m2, mitad, mitad, mitad)
+    )
+
+    val P1 = multStrassen(a11, restaMatriz(b12, b22))
+    val P2 = multStrassen(sumMatriz(a11, a12), b22)
+    val P3 = multStrassen(sumMatriz(a21, a22), b11)
+    val P4 = multStrassen(a22, restaMatriz(b21, b11))
+    val P5 = multStrassen(sumMatriz(a11, a22), sumMatriz(b11, b22))
+    val P6 = multStrassen(restaMatriz(a12, a22), sumMatriz(b21, b22))
+    val P7 = multStrassen(restaMatriz(a11, a21), sumMatriz(b11, b12))
+
+    val (c11, c12, c21, c22) = (
+      sumMatriz(sumMatriz(P5, P6), restaMatriz(P4, P2)),
+      sumMatriz(P1, P2),
+      sumMatriz(P3, P4),
+      sumMatriz(P5, restaMatriz(restaMatriz(P1, P3), P7))
+    )
+
+    crearMatrizC(c11, c12, c21, c22, l)
+
+  }
+}
+
+def multStrassenPar(m1: Matriz, m2: Matriz): Matriz = {
+  val l = m1.length
+  if (l == 1) {
+    Vector(Vector(m1(0)(0) * m2(0)(0))): Matriz
+  } else {
+    val mitad = l / 2
+    val (a11, a12, a21, a22) = (
+      subMatriz(m1, 0, 0, mitad),
+      subMatriz(m1, 0, mitad, mitad),
+      subMatriz(m1, mitad, 0, mitad),
+      subMatriz(m1, mitad, mitad, mitad)
+    )
+
+    val (b11, b12, b21, b22) = (
+      subMatriz(m2, 0, 0, mitad),
+      subMatriz(m2, 0, mitad, mitad),
+      subMatriz(m2, mitad, 0, mitad),
+      subMatriz(m2, mitad, mitad, mitad)
+    )
+
+    val P1 = task(multStrassen(a11, restaMatriz(b12, b22)))
+    val P2 = task(multStrassen(sumMatriz(a11, a12), b22))
+    val P3 = task(multStrassen(sumMatriz(a21, a22), b11))
+    val P4 = task(multStrassen(a22, restaMatriz(b21, b11)))
+    val P5 = task(multStrassen(sumMatriz(a11, a22), sumMatriz(b11, b22)))
+    val P6 = task(multStrassen(restaMatriz(a12, a22), sumMatriz(b21, b22)))
+    val P7 = task(multStrassen(restaMatriz(a11, a21), sumMatriz(b11, b12)))
+
+    val (c11, c12, c21, c22) = (
+      sumMatriz(sumMatriz(P5.join, P6.join), restaMatriz(P4.join, P2.join)),
+      sumMatriz(P1.join, P2.join),
+      sumMatriz(P3.join, P4.join),
+      sumMatriz(P5.join, restaMatriz(restaMatriz(P1.join, P3.join), P7.join))
+    )
+
+    crearMatrizC(c11, c12, c21, c22, l)
+
+  }
+}
+
+def prodPuntoParD(v1:ParVector[Int],v2:ParVector[Int]):Int={
+  (v1 zip v2).map({case (i,j)=>(i*j)}).sum
+}
+
+
+
+
+
+multStrassen(m1, m2)
 multMatrizRec(m1, m2)
 multMatriz(m1, m2)
 multMatrizRecPar(m1, m2)
 
-val mp1 = matrizAlAzar(pow(2, 3).toInt, 2)
-val mp2 = matrizAlAzar(pow(2, 3).toInt, 2)
+val mp1 = matrizAlAzar(pow(2, 5).toInt, 2)
+val mp2 = matrizAlAzar(pow(2, 5).toInt, 2)
 
-compararAlgoritmos(multMatrizRec, multMatrizRecPar)(mp1, mp2)
-
+compararAlgoritmos(multStrassen, multMatrizRec)(mp1, mp2)

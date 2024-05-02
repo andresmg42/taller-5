@@ -1,6 +1,8 @@
 import scala.util.Random
 import common._
 import math._
+import scala.collection.parallel.immutable._
+
 package object Matrices {
 type Matriz=Vector[Vector [Int]]
 
@@ -16,7 +18,7 @@ def vectorAlAzar(long:Int,vals:Int):Vector[Int]={
     v
 }
 
-def productoPunto(v1:Vector[Int],v2:Vector[Int]):Int={
+def prodPunto(v1:Vector[Int],v2:Vector[Int]):Int={
     (v1 zip v2).map({case(i,j)=>(i*j)}).sum
 }
 
@@ -29,18 +31,33 @@ def transpuesta(m:Matriz):Matriz={
 def multMatriz(m1:Matriz,m2:Matriz):Matriz={
 val l=m1.length
 val T=transpuesta(m2)
-Vector.tabulate(l,l)((i,j)=>productoPunto(m1(i),T(j)))
+Vector.tabulate(l,l)((i,j)=>prodPunto(m1(i),T(j)))
 }
 
 def multMatrizPar(m1: Matriz, m2: Matriz): Matriz = {
 val l=m1.length
 val T=transpuesta(m2)
- Vector.tabulate(l,l)((i,j)=>task(productoPunto(m1(i),T(j)))) map (v=>v map(_.join))
+ Vector.tabulate(l,l)((i,j)=>task(prodPunto(m1(i),T(j)))) map (v=>v map(_.join))
 }
 
 def subMatriz(m:Matriz,i:Int,j:Int,l:Int):Matriz= Vector.tabulate(l,l)((z,r)=>m(z+i)(r+j))
 
 def sumMatriz(m1:Matriz,m2:Matriz):Matriz=Vector.tabulate(m1.length,m1.length)((i,j)=>m1(i)(j)+m2(i)(j))
+
+def crearMatrizC(
+    c11: Matriz,
+    c12: Matriz,
+    c21: Matriz,
+    c22: Matriz,
+    mitad:Int
+): Matriz = {
+  Vector.tabulate(4,4)((i, j) =>
+    if (i < mitad && j < mitad) c11(i)(j)
+    else if (i < mitad) c12(i)(j - mitad)
+    else if (j < mitad) c21(i - mitad)(j)
+    else c22(i - mitad)(j - mitad)
+  )
+}
 
 def multMatrizRec(m1:Matriz,m2:Matriz):Matriz={
     
@@ -63,29 +80,14 @@ val C12=sumMatriz(multMatrizRec(A11,B12),multMatrizRec(A12,B22))
 val C21=sumMatriz(multMatrizRec(A21,B11),multMatrizRec(A22,B21))
 val C22=sumMatriz(multMatrizRec(A21,B12),multMatrizRec(A22,B22))
 
-Vector.tabulate(l,l)((i, j) => if (i < mitad && j < mitad) C11(i)(j)
-                                    else if (i < mitad) C12(i)(j - mitad)
-                                    else if (j < mitad) C21(i - mitad)(j)
-                                    else C22(i - mitad)(j - mitad))
+crearMatrizC(C11, C12, C21, C22, mitad)
+
 }
 }
 
-def crearMatrizC(
-    c11: Matriz,
-    c12: Matriz,
-    c21: Matriz,
-    c22: Matriz,
-    mitad:Int
-): Matriz = {
-  Vector.tabulate(4,4)((i, j) =>
-    if (i < mitad && j < mitad) c11(i)(j)
-    else if (i < mitad) c12(i)(j - mitad)
-    else if (j < mitad) c21(i - mitad)(j)
-    else c22(i - mitad)(j - mitad)
-  )
-}
 
-def multMatrizRecParU(m1: Matriz, m2: Matriz): Matriz = {
+
+def multMatrizRecPar(m1: Matriz, m2: Matriz): Matriz = {
   val umbral = pow(2, 3)
   val l = m1.length
   if (l == 1) {
@@ -118,4 +120,10 @@ def multMatrizRecParU(m1: Matriz, m2: Matriz): Matriz = {
   }
 }
 
+def prodPuntoParD(v1:ParVector[Int],v2:ParVector[Int]):Int={
+  (v1 zip v2).map({case (i,j)=>(i*j)}).sum
 }
+
+
+}
+

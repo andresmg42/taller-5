@@ -277,10 +277,10 @@ def multStrassenPar(m1: Matriz, m2: Matriz): Matriz = {
 
   }
 }
-
+*/
 def prodPuntoParD(v1:ParVector[Int],v2:ParVector[Int]):Int={
   (v1 zip v2).map({case (i,j)=>(i*j)}).sum
-}*/
+}
 
 
 }

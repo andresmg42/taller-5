@@ -3,7 +3,9 @@ import common._
 import Benchmark._
 import math._
 import scala.collection.parallel.immutable._
+import java.io._
 type Matriz = Vector[Vector[Int]]
+type AlgoritmoMult = (Matriz, Matriz) => Matriz
 
 val random = new Random()
 
@@ -32,25 +34,6 @@ def multMatriz(m1: Matriz, m2: Matriz): Matriz = {
   Vector.tabulate(l, l)((i, j) => prodPunto(m1(i), T(j)))
 }
 
-val m1 = Vector(
-  Vector(1, 1, 0, 1),
-  Vector(0, 1, 1, 0),
-  Vector(0, 0, 0, 1),
-  Vector(1, 0, 0, 1)
-)
-
-val m2 = Vector(
-  Vector(1, 0, 0, 1),
-  Vector(1, 1, 0, 1),
-  Vector(0, 1, 0, 1),
-  Vector(1, 1, 0, 1)
-)
-//val l = m1.length
-
-val m4 = matrizAlAzar(8, 2)
-
-/*m1 map(vector=>transpuesta(m2) map(vector2=> productoPunto(vector,vector2)))
-Vector.tabulate(l,l)((i,j)=>productoPunto(m1(i),transpuesta(m2)(j)))*/
 
 def multMatrizPar(m1: Matriz, m2: Matriz): Matriz = {
   val l = m1.length
@@ -375,20 +358,17 @@ def prodPuntoParD(v1: ParVector[Int], v2: ParVector[Int]): Int = {
   (v1 zip v2).map({ case (i, j) => (i * j) }).sum
 }
 
-val mp1 = matrizAlAzar(pow(2, 4).toInt, 2)
-val mp2 = matrizAlAzar(pow(2, 4).toInt, 2)
-
 //compararAlgoritmos(multMatrizRec, multMatrizRecPar2)(mp1, mp2)
 
-val lista =
+/*val lista =
   for (i <- (1 to 8))
     yield compararAlgoritmos(multMatrizRec, multMatrizRecPar)(mp1, mp2)._3
 
-lista.sum / lista.length
+lista.sum / lista.length*/
 
 //multStrassenPar(mp1,mp2)
 
-//------------------------------------------------------------------------ pruevas fmejoradas
+//------------------------------------------------------------------------ funciones mejoradas
 
 def multMatrizRecPar(m1: Matriz, m2: Matriz): Matriz = {
   val umbral = pow(2, 3)
@@ -465,7 +445,122 @@ def multStrassenPar(m1: Matriz, m2: Matriz): Matriz = {
 
 }
 
-/*       multMatriz(mp1, mp2)
-multMatrizRecPar(mp1, mp2)
-multStrassenPar(mp1, mp2)
-*/
+//-----------------Pruebas-----------------------------------------------
+
+//val mp1 = matrizAlAzar(pow(2, 1).toInt, 2)
+//val mp2 = matrizAlAzar(pow(2, 1).toInt, 2)
+
+/*val l = for {
+  n <- 1 to 2
+  mp1 = matrizAlAzar(pow(2, n).toInt, 2)
+  mp2 = matrizAlAzar(pow(2, n).toInt, 2)
+  algoritmos = List(
+    compararAlgoritmos(multMatriz, multMatrizPar)(mp1, mp2),
+    compararAlgoritmos(multMatrizRec, multMatrizRecPar)(mp1, mp2),
+    compararAlgoritmos(multStrassen, multStrassenPar)(mp1, mp2)
+  )
+
+} yield for {
+  alg <- algoritmos
+
+} yield for {
+  rep <- 1 to 5
+} yield alg
+
+
+
+// Definir la ruta del archivo CSV
+val csvFilePath = "output.csv"
+
+// Crear un PrintWriter para escribir en el archivo CSV
+val writer = new PrintWriter(new File(csvFilePath))
+
+// Iterar sobre cada nivel de la estructura y escribir los datos en el archivo CSV
+l.foreach { outerList =>
+  outerList.foreach { innerVector =>
+    innerVector.foreach { case (a, b, c) =>
+      writer.println(s"$a,$b,$c")
+    }
+  }
+}
+
+// Cerrar el PrintWriter
+writer.close()
+ */
+/*val comparaciones=List[(AlgoritmoMult,AlgoritmoMult)]((multMatriz,multMatrizPar),(multMatrizRec,multMatrizRecPar),(multStrassen,multStrassenPar))
+
+def crearPruevas(
+    tamañoMatriz: Int,
+    numPruebas: Int,
+    comparaciones:List[(AlgoritmoMult,AlgoritmoMult)]
+): IndexedSeq[List[IndexedSeq[(Double, Double, Double)]]] = {
+
+  for {
+    n <- 1 to tamañoMatriz
+    mp1 = matrizAlAzar(pow(2, n).toInt, 2)
+    mp2 = matrizAlAzar(pow(2, n).toInt, 2)
+
+  } yield for {
+    comparacion<-comparaciones
+  } yield for {
+    rep <- 1 to numPruebas
+  } yield compararAlgoritmos(comparacion._1,comparacion._2)(mp1,mp2)
+
+}*/
+
+
+
+def crearPruevas(
+    tamañoMatriz:Range,
+    numPruebas: Int,
+    algoritmos: (AlgoritmoMult, AlgoritmoMult)
+): IndexedSeq[IndexedSeq[((Double, Double, Double), Double)]] = {
+
+  for {
+    n <-tamañoMatriz
+    mp1 = matrizAlAzar(pow(2, n).toInt, 2)
+    mp2 = matrizAlAzar(pow(2, n).toInt, 2)
+
+  } yield for {
+    rep <- 1 to numPruebas
+  } yield (
+    compararAlgoritmos(algoritmos._1, algoritmos._2)(mp1, mp2),
+    pow(2, n)
+  )
+
+}
+
+def escrivirCsv(
+    rutacsv: String,
+    datos: IndexedSeq[IndexedSeq[((Double, Double, Double), Double)]]
+): Unit = {
+
+  val csvFilePath = rutacsv
+
+  val writer = new PrintWriter(new File(csvFilePath))
+
+  datos.foreach { outerList =>
+    outerList.foreach { case ((a, b, c), d) =>
+      writer.println(s"$d,$a,$b,$c")
+    }
+
+  }
+  writer.close()
+}
+
+//crearPruevas(3,5,(multMatriz,multMatrizPar))
+
+//---pruevas para multMatriz-multMatrizPar
+//escrivirCsv("pruebas.CSV", crearPruevas(10, 5, (multMatriz, multMatrizPar)))
+
+//---pruevas para multMatrizRec-multMatrizRecPar
+//escrivirCsv("pruebas.CSV", crearPruevas(8, 5, (multMatrizRec, multMatrizRecPar)))
+
+//---pruevas para multStrassen-mul
+
+
+val mp1 = matrizAlAzar(pow(2, 3).toInt, 2)
+val mp2 = matrizAlAzar(pow(2, 3).toInt, 2)
+//multMatrizRec(mp1,mp2)
+
+

@@ -5,8 +5,7 @@ package object Benchmark {
   type AlgoritmoMult = (Matriz, Matriz) => Matriz
 
 
-  def compararAlgoritmos(a1:AlgoritmoMult, a2:AlgoritmoMult)
-                        (m1:Matriz, m2:Matriz):(Double,Double, Double) = {
+  def compararAlgoritmos(a1:AlgoritmoMult, a2:AlgoritmoMult)(m1:Matriz, m2:Matriz):(Double,Double, Double) = {
     val timeA1 = config(
       KeyValue(Key.exec.minWarmupRuns -> 20),
       KeyValue(Key.exec.maxWarmupRuns -> 60),
@@ -23,6 +22,14 @@ package object Benchmark {
     (timeA1.value, timeA2.value, speedUp)
   }
 
+  def calcularTiempoAlgoritmo(a:AlgoritmoMult)(m1:Matriz,m2:Matriz):Double={
+      val timeA= config(
+      KeyValue(Key.exec.minWarmupRuns -> 20),
+      KeyValue(Key.exec.maxWarmupRuns -> 60),
+      KeyValue(Key.verbose -> false)
+    ) withWarmer(new Warmer.Default) measure (a(m1,m2))
+    timeA.value
+  }
 
   /*def compararMultMatriz(n:Int) = {
     // Para probar con paralelismo de datos

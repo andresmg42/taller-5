@@ -170,6 +170,53 @@ def multMatrizRecPar(m1: Matriz, m2: Matriz): Matriz = {
 
 }
 
+def multMatrizRecPar2(m1: Matriz, m2: Matriz): Matriz = {
+  val umbral = pow(2, 3)
+  val l = m1.length
+  if (l == 1) {
+    Vector(Vector(m1(0)(0) * m2(0)(0))): Matriz
+  } else {
+
+    val mitad = l / 2
+    val A11 = subMatriz(m1, 0, 0, mitad)
+    val A12 = subMatriz(m1, 0, mitad, mitad)
+    val A21 = subMatriz(m1, mitad, 0, mitad)
+    val A22 = subMatriz(m1, mitad, mitad, mitad)
+    val B11 = subMatriz(m2, 0, 0, mitad)
+    val B12 = subMatriz(m2, 0, mitad, mitad)
+    val B21 = subMatriz(m2, mitad, 0, mitad)
+    val B22 = subMatriz(m2, mitad, mitad, mitad)
+    if (l <= umbral) {
+      val c11 =
+        sumMatriz(multMatrizRecPar2(A11, B11), multMatrizRecPar2(A12, B21))
+      val c12 =
+        sumMatriz(multMatrizRecPar2(A11, B12), multMatrizRecPar2(A12, B22))
+      val c21 =
+        sumMatriz(multMatrizRecPar2(A21, B11), multMatrizRecPar2(A22, B21))
+      val c22 =
+        sumMatriz(multMatrizRecPar2(A21, B12), multMatrizRecPar2(A22, B22))
+      crearMatrizC(c11, c12, c21, c22, l)
+    } else {
+      val A11B11 = task(multMatrizRecPar2(A11, B11))
+      val A12B21 = task(multMatrizRecPar2(A12, B21))
+      val A11B12 = task(multMatrizRecPar2(A11, B12))
+      val A12B22 = task(multMatrizRecPar2(A12, B22))
+      val A21B11 = task(multMatrizRecPar2(A21, B11))
+      val A22B21 = task(multMatrizRecPar2(A22, B21))
+      val A21B12 = task(multMatrizRecPar2(A21, B12))
+      val A22B22 = task(multMatrizRecPar2(A22, B22))
+
+      val (c11, c12, c21, c22) = parallel (
+        sumMatriz(A11B11.join, A12B21.join),
+        sumMatriz(A11B12.join, A12B22.join),
+        sumMatriz(A21B11.join, A22B21.join),
+        sumMatriz(A21B12.join, A22B22.join)
+      )
+      crearMatrizC(c11, c12, c21, c22, l)
+    }
+  }
+}
+
 def multStrassenPar(m1: Matriz, m2: Matriz): Matriz = {
   val umbral = pow(2, 3)
   val l = m1.length

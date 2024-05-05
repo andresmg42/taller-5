@@ -14934,3 +14934,9 @@ and imported subsequently by import <error Not found: common>._
 2024.05.05 09:31:15 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 1s[0m
 2024.05.05 09:31:32 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.79s[0m
 2024.05.05 09:31:55 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.86s[0m
+2024.05.05 09:33:00 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.64s[0m
+May 05, 2024 9:33:02 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 8420, count -1, length 8782
+May 05, 2024 9:33:11 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 8420, count -1, length 8782
+2024.05.05 09:33:15 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.58s[0m

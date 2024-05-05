@@ -286,15 +286,75 @@ def escrivirCsv(
     datos: IndexedSeq[IndexedSeq[((Double, Double, Double), Double)]]
 ): Unit = {
 
-  val csvFilePath = rutacsv
+  val writer = new PrintWriter(new File(rutacsv))
+  try {
+    datos.foreach { listaExterna =>
+      listaExterna.foreach { case ((a, b, c), d) =>
+        writer.println(s"$d,$a,$b,$c")
+      }
 
-  val writer = new PrintWriter(new File(csvFilePath))
-
-  datos.foreach { outerList =>
-    outerList.foreach { case ((a, b, c), d) =>
-      writer.println(s"$d,$a,$b,$c")
     }
 
+  } finally {
+    writer.close()
+
   }
-  writer.close()
+
 }
+
+def crearPruevasProdP(rangoPruebas: Range, rangoTamañoVector: Range) = {
+  for {
+    tamaño <- rangoTamañoVector
+  } yield for {
+    prueva <- rangoPruebas
+  } yield (compararProdPunto(tamaño), tamaño)
+}
+
+
+def escrivirCSVProdP(
+    vec: IndexedSeq[IndexedSeq[((Double, Double, Double), Int)]],
+    nombreCSV: String
+): Unit = {
+  val writer = new PrintWriter(nombreCSV)
+  try {
+    vec.foreach { vectorInterno =>
+      vectorInterno.foreach { case ((x, y, z), value) =>
+        writer.println(s"$x,$y,$z,$value")
+      }
+    }
+  } finally {
+    writer.close()
+  }
+}
+
+//escrivirCsvProdP("pruevaProdP1.CSV",crearPruevasProdP(1 to 5,10 to 1000 by 10))
+
+//-------------------------------------------------PRUEBAS MULTIPLICACION---------------------------------------------------------------------------------------------------------
+
+//---pruevas para multMatriz-multMatrizPar
+//escrivirCsv("multMatriz-multMatrizPar.CSV", crearPruevas(1 to 10, 5, (multMatriz, multMatrizPar))) HECHO!
+
+//---pruevas para multMatrizRec-multMatrizRecPar
+//escrivirCsv("multMatrizRec-multMatrizRecPar.CSV", crearPruevas(1 to 10, 5, (multMatrizRec, multMatrizRecPar)))
+
+//---pruevas para multStrassen-multStrassenPar
+//escrivirCsv("multStrassen-multStrassenPar.CSV", crearPruevas(1 to 10, 5, (multStrassen, multStrassenPar)))
+
+//---pruevas para multMatriz-multMatrizRec
+//escrivirCsv("multMatrizRec-multMatriz.CSV", crearPruevas(1 to 10, 5, ( multMatrizRec,multMatriz)))
+
+//---pruevas para multMatriz-multStrassen
+//escrivirCsv("multStrassen-multMatriz.CSV", crearPruevas(1 to 10, 5, ( multStrassen,multMatriz))
+
+//---pruevas para multMatrizRec-multStrassen
+//escrivirCsv("multMatrizRec-multStrassen.CSV", crearPruevas(1 to 10, 5, (multMatrizRec, multStrassen)))
+
+//---pruevas para multMatrizRecPar-multMatrizPar
+//escrivirCsv("multMatrizRecPar-multMatrizPar.CSV", crearPruevas(1 to 10, 5, ( multMatrizRecPar,multMatrizPar)))
+
+//---pruevas para multStrassenPar-multMatrizPar
+//escrivirCsv("multStrassenPar-multMatrizPar.CSV", crearPruevas(1 to 10, 5, (multStrassenPar, multMatrizPar)))
+
+//---pruevas para multMatrizRecPar-multStrassenPar
+//escrivirCsv("multMatrizRecPar-multStrassenPar.CSV", crearPruevas(1 to 10, 5, (multMatrizRecPar, multStrassenPar)))
+

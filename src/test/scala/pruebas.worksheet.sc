@@ -34,7 +34,6 @@ def multMatriz(m1: Matriz, m2: Matriz): Matriz = {
   Vector.tabulate(l, l)((i, j) => prodPunto(m1(i), T(j)))
 }
 
-
 def multMatrizPar(m1: Matriz, m2: Matriz): Matriz = {
   val l = m1.length
   val T = transpuesta(m2)
@@ -508,16 +507,14 @@ def crearPruevas(
 
 }*/
 
-
-
 def crearPruevas(
-    tamañoMatriz:Range,
+    tamañoMatriz: Range,
     numPruebas: Int,
     algoritmos: (AlgoritmoMult, AlgoritmoMult)
 ): IndexedSeq[IndexedSeq[((Double, Double, Double), Double)]] = {
 
   for {
-    n <-tamañoMatriz
+    n <- tamañoMatriz
     mp1 = matrizAlAzar(pow(2, n).toInt, 2)
     mp2 = matrizAlAzar(pow(2, n).toInt, 2)
 
@@ -535,32 +532,84 @@ def escrivirCsv(
     datos: IndexedSeq[IndexedSeq[((Double, Double, Double), Double)]]
 ): Unit = {
 
-  val csvFilePath = rutacsv
+  val writer = new PrintWriter(new File(rutacsv))
+  try {
+    datos.foreach { listaExterna =>
+      listaExterna.foreach { case ((a, b, c), d) =>
+        writer.println(s"$d,$a,$b,$c")
+      }
 
-  val writer = new PrintWriter(new File(csvFilePath))
-
-  datos.foreach { outerList =>
-    outerList.foreach { case ((a, b, c), d) =>
-      writer.println(s"$d,$a,$b,$c")
     }
 
+  } finally {
+    writer.close()
+
   }
-  writer.close()
+
 }
 
-//crearPruevas(3,5,(multMatriz,multMatrizPar))
+def crearPruevasProdP(rangoPruebas: Range, rangoTamañoVector: Range) = {
+  for {
+    tamaño <- rangoTamañoVector
+  } yield for {
+    prueva <- rangoPruebas
+  } yield (compararProdPunto(tamaño), tamaño)
+}
+
+/*def escrivirCsvProdP(rutaCsv:String,datos:IndexedSeq[IndexedSeq[((Double, Double, Double),Int)]])={
+  val csvFilePath = rutaCsv
+  val writer = new PrintWriter(new File(csvFilePath))
+  datos.foreach(outerVector=>outerVector.foreach{
+    case(((a,b,c),d))=> writer.println(s"$d,$a,$b,$c")
+  })
+
+}*/
+
+def escrivirCSVProdP(
+    vec: IndexedSeq[IndexedSeq[((Double, Double, Double), Int)]],
+    nombreCSV: String
+): Unit = {
+  val writer = new PrintWriter(nombreCSV)
+  try {
+    vec.foreach { vectorInterno =>
+      vectorInterno.foreach { case ((x, y, z), value) =>
+        writer.println(s"$x,$y,$z,$value")
+      }
+    }
+  } finally {
+    writer.close()
+  }
+}
+
+//escrivirCsvProdP("pruevaProdP1.CSV",crearPruevasProdP(1 to 5,10 to 1000 by 10))
+
+//-------------------------------------------------PRUEBAS MULTIPLICACION---------------------------------------------------------------------------------------------------------
 
 //---pruevas para multMatriz-multMatrizPar
-//escrivirCsv("pruebas.CSV", crearPruevas(10, 5, (multMatriz, multMatrizPar)))
+//escrivirCsv("multMatriz-multMatrizPar.CSV", crearPruevas(1 to 10, 5, (multMatriz, multMatrizPar)))
 
 //---pruevas para multMatrizRec-multMatrizRecPar
-//escrivirCsv("pruebas.CSV", crearPruevas(8, 5, (multMatrizRec, multMatrizRecPar)))
+//escrivirCsv("multMatrizRec-multMatrizRecPar.CSV", crearPruevas(1 to 10, 5, (multMatrizRec, multMatrizRecPar)))
 
-//---pruevas para multStrassen-mul
+//---pruevas para multStrassen-multStrassenPar
+//escrivirCsv("multStrassen-multStrassenPar.CSV", crearPruevas(1 to 10, 5, (multStrassen, multStrassenPar)))
 
+//---pruevas para multMatriz-multMatrizRec
+//escrivirCsv("multMatrizRec-multMatriz.CSV", crearPruevas(1 to 10, 5, ( multMatrizRec,multMatriz)))
 
-val mp1 = matrizAlAzar(pow(2, 3).toInt, 2)
-val mp2 = matrizAlAzar(pow(2, 3).toInt, 2)
-//multMatrizRec(mp1,mp2)
+//---pruevas para multMatriz-multStrassen
+//escrivirCsv("multStrassen-multMatriz.CSV", crearPruevas(1 to 10, 5, ( multStrassen,multMatriz))
 
+//---pruevas para multMatrizRec-multStrassen
+//escrivirCsv("multMatrizRec-multStrassen.CSV", crearPruevas(1 to 10, 5, (multMatrizRec, multStrassen)))
 
+//---pruevas para multMatrizRecPar-multMatrizPar
+//escrivirCsv("multMatrizRecPar-multMatrizPar.CSV", crearPruevas(1 to 10, 5, ( multMatrizRecPar,multMatrizPar)))
+
+//---pruevas para multStrassenPar-multMatrizPar
+//escrivirCsv("multStrassenPar-multMatrizPar.CSV", crearPruevas(1 to 10, 5, (multStrassenPar, multMatrizPar)))
+
+//---pruevas para multMatrizRecPar-multStrassenPar
+//escrivirCsv("multMatrizRecPar-multStrassenPar.CSV", crearPruevas(1 to 10, 5, (multMatrizRecPar, multStrassenPar)))
+
+val datos = crearPruevasProdP(1 to 5, 10 to 10000 by 100)

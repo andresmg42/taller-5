@@ -14940,3 +14940,758 @@ WARNING: offset 8420, count -1, length 8782
 May 05, 2024 9:33:11 AM scala.meta.internal.pc.CompletionProvider expected$1
 WARNING: offset 8420, count -1, length 8782
 2024.05.05 09:33:15 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.58s[0m
+2024.05.05 09:46:12 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.66s[0m
+May 05, 2024 9:50:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1125
+2024.05.05 09:57:19 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.55s[0m
+2024.05.05 09:57:22 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.51s[0m
+2024.05.05 09:57:39 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.38s[0m
+May 05, 2024 10:10:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2607
+May 05, 2024 10:11:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2779
+2024.05.05 10:21:58 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.44s[0m
+2024.05.05 10:22:11 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.4s[0m
+2024.05.05 10:22:13 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.41s[0m
+2024.05.05 10:24:07 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.45s[0m
+2024.05.05 10:24:12 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.37s[0m
+2024.05.05 10:24:18 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.36s[0m
+2024.05.05 10:24:54 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.3s[0m
+May 05, 2024 10:25:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3465
+May 05, 2024 10:25:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-25-03-723.md
+May 05, 2024 10:25:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-25-08-978.md
+May 05, 2024 10:25:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3613
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:551:1: illegal start of simple expression
+def crearPruevasProdPunto()
+^^^
+2024.05.05 10:25:28 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.14s[0m
+May 05, 2024 10:25:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-25-36-576.md
+May 05, 2024 10:25:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-25-42-805.md
+May 05, 2024 10:25:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-25-43-308.md
+May 05, 2024 10:25:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-25-44-294.md
+May 05, 2024 10:25:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-25-48-667.md
+May 05, 2024 10:25:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-25-58-159.md
+May 05, 2024 10:25:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-25-58-823.md
+May 05, 2024 10:26:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-01-967.md
+May 05, 2024 10:26:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-02-757.md
+May 05, 2024 10:26:04 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-04-336.md
+May 05, 2024 10:26:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-06-348.md
+May 05, 2024 10:26:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-07-692.md
+May 05, 2024 10:26:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-12-489.md
+May 05, 2024 10:26:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-13-505.md
+May 05, 2024 10:26:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-13-990.md
+May 05, 2024 10:26:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-15-236.md
+May 05, 2024 10:26:16 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-16-660.md
+May 05, 2024 10:26:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-18-159.md
+May 05, 2024 10:26:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-18-699.md
+May 05, 2024 10:26:19 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-19-426.md
+May 05, 2024 10:26:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-20-300.md
+May 05, 2024 10:26:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-21-749.md
+May 05, 2024 10:26:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-22-876.md
+May 05, 2024 10:26:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-23-863.md
+May 05, 2024 10:26:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-24-549.md
+May 05, 2024 10:26:27 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-27-291.md
+May 05, 2024 10:26:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-29-557.md
+May 05, 2024 10:26:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-36-525.md
+May 05, 2024 10:26:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-26-38-116.md
+May 05, 2024 10:29:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-29-23-413.md
+May 05, 2024 10:29:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-29-24-936.md
+May 05, 2024 10:29:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-29-29-660.md
+May 05, 2024 10:29:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-29-30-390.md
+May 05, 2024 10:29:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-29-31-000.md
+May 05, 2024 10:29:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-29-31-795.md
+May 05, 2024 10:29:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4085
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:551:51: : expected but ) found
+def crearPruevasProdPunto(rangoPruebas:Range,rango)={
+                                                  ^
+2024.05.05 10:29:43 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.16s[0m
+May 05, 2024 10:29:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-29-43-664.md
+May 05, 2024 10:29:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-29-48-108.md
+May 05, 2024 10:29:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-29-49-172.md
+May 05, 2024 10:29:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-29-50-022.md
+May 05, 2024 10:29:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-29-51-245.md
+May 05, 2024 10:29:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-29-51-985.md
+May 05, 2024 10:30:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-01-101.md
+May 05, 2024 10:30:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-08-578.md
+May 05, 2024 10:30:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-11-772.md
+May 05, 2024 10:30:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-12-562.md
+May 05, 2024 10:30:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-13-204.md
+May 05, 2024 10:30:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-17-797.md
+May 05, 2024 10:30:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-21-986.md
+May 05, 2024 10:30:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-22-786.md
+May 05, 2024 10:30:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-28-795.md
+May 05, 2024 10:30:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-29-640.md
+May 05, 2024 10:30:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-33-693.md
+May 05, 2024 10:30:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-33-782.md
+May 05, 2024 10:30:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-34-254.md
+May 05, 2024 10:30:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-35-963.md
+May 05, 2024 10:30:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-36-040.md
+May 05, 2024 10:30:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-36-879.md
+May 05, 2024 10:30:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-36-960.md
+May 05, 2024 10:30:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-37-457.md
+May 05, 2024 10:30:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-37-548.md
+May 05, 2024 10:30:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-38-173.md
+May 05, 2024 10:30:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-38-284.md
+May 05, 2024 10:30:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-38-364.md
+May 05, 2024 10:30:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-38-500.md
+May 05, 2024 10:30:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-40-288.md
+May 05, 2024 10:30:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-42-178.md
+May 05, 2024 10:30:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-43-207.md
+May 05, 2024 10:30:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-45-531.md
+May 05, 2024 10:30:47 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-47-461.md
+May 05, 2024 10:30:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-55-060.md
+May 05, 2024 10:30:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-56-283.md
+May 05, 2024 10:30:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-57-010.md
+May 05, 2024 10:30:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-30-59-856.md
+May 05, 2024 10:31:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-02-020.md
+May 05, 2024 10:31:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-03-344.md
+May 05, 2024 10:31:04 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-04-380.md
+May 05, 2024 10:31:04 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-04-998.md
+May 05, 2024 10:31:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-05-845.md
+May 05, 2024 10:31:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-06-897.md
+May 05, 2024 10:31:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-08-298.md
+May 05, 2024 10:31:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-08-620.md
+May 05, 2024 10:31:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-10-464.md
+May 05, 2024 10:31:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-11-825.md
+May 05, 2024 10:31:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-13-586.md
+May 05, 2024 10:31:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-17-687.md
+May 05, 2024 10:31:19 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-19-828.md
+May 05, 2024 10:31:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4499
+May 05, 2024 10:31:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-20-854.md
+May 05, 2024 10:31:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-21-629.md
+May 05, 2024 10:31:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-22-842.md
+May 05, 2024 10:31:26 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-26-625.md
+May 05, 2024 10:31:27 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-27-487.md
+May 05, 2024 10:31:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-28-068.md
+May 05, 2024 10:31:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-32-224.md
+May 05, 2024 10:31:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-33-609.md
+May 05, 2024 10:31:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-34-438.md
+May 05, 2024 10:31:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-35-759.md
+May 05, 2024 10:31:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-37-271.md
+May 05, 2024 10:31:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-38-417.md
+May 05, 2024 10:31:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-31-42-257.md
+May 05, 2024 10:32:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-32-28-550.md
+May 05, 2024 10:32:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-32-45-611.md
+May 05, 2024 10:32:47 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-32-47-236.md
+May 05, 2024 10:32:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-32-49-056.md
+May 05, 2024 10:32:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-32-49-760.md
+May 05, 2024 10:32:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-32-54-268.md
+May 05, 2024 10:32:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-32-55-579.md
+May 05, 2024 10:33:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-33-01-421.md
+May 05, 2024 10:33:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-33-02-028.md
+May 05, 2024 10:33:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-33-03-456.md
+May 05, 2024 10:33:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-33-05-599.md
+May 05, 2024 10:33:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-33-06-174.md
+May 05, 2024 10:33:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-33-06-666.md
+May 05, 2024 10:33:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-33-07-064.md
+May 05, 2024 10:33:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-33-07-795.md
+May 05, 2024 10:33:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-33-18-559.md
+May 05, 2024 10:33:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-33-20-661.md
+May 05, 2024 10:34:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-34-30-063.md
+May 05, 2024 10:34:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-34-33-694.md
+May 05, 2024 10:34:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-34-35-708.md
+May 05, 2024 10:34:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-34-36-185.md
+2024.05.05 10:34:36 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/test/scala/pruebas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:556: error: unclosed comment
+/*def escrivirCsvProdP(rutaCsv:String,datos:Int)={
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+May 05, 2024 10:35:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-35-24-170.md
+2024.05.05 10:36:09 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 2.36s[0m
+2024.05.05 10:36:54 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 1.11s[0m
+2024.05.05 10:37:28 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.56s[0m
+2024.05.05 10:39:03 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.57s[0m
+2024.05.05 10:39:28 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.77s[0m
+May 05, 2024 10:39:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-39-50-340.md
+May 05, 2024 10:40:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-40-00-731.md
+May 05, 2024 10:40:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5559
+May 05, 2024 10:40:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-40-03-280.md
+May 05, 2024 10:40:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-40-05-678.md
+May 05, 2024 10:40:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-40-38-915.md
+May 05, 2024 10:40:41 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-40-41-407.md
+May 05, 2024 10:40:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-40-42-917.md
+May 05, 2024 10:41:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-41-17-189.md
+May 05, 2024 10:41:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-41-18-165.md
+May 05, 2024 10:42:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-03-937.md
+May 05, 2024 10:42:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-07-279.md
+May 05, 2024 10:42:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-34-788.md
+May 05, 2024 10:42:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-37-888.md
+May 05, 2024 10:42:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-39-577.md
+May 05, 2024 10:42:41 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-41-332.md
+May 05, 2024 10:42:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-42-400.md
+May 05, 2024 10:42:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-44-013.md
+May 05, 2024 10:42:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-45-260.md
+May 05, 2024 10:42:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-51-476.md
+May 05, 2024 10:42:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-54-311.md
+May 05, 2024 10:42:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-55-463.md
+May 05, 2024 10:42:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-42-57-447.md
+May 05, 2024 10:43:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-43-05-113.md
+May 05, 2024 10:43:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-43-05-655.md
+May 05, 2024 10:43:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-43-06-398.md
+May 05, 2024 10:43:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-43-09-676.md
+May 05, 2024 10:43:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-43-15-454.md
+May 05, 2024 10:43:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-43-18-960.md
+May 05, 2024 10:43:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-43-21-471.md
+May 05, 2024 10:43:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-43-52-711.md
+May 05, 2024 10:43:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-43-54-029.md
+2024.05.05 10:43:54 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/test/scala/pruebas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:558: error: unclosed comment
+/*def escrivirCsvProdP(rutaCsv:String,datos:IndexedSeq[IndexedSeq[(Double, Double, Double)]])={
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.05.05 10:44:02 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.55s[0m
+May 05, 2024 10:44:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-44-40-594.md
+May 05, 2024 10:44:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-44-42-869.md
+May 05, 2024 10:44:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-44-46-617.md
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:559:9: illegal start of simple pattern
+    case{((a,b,c),d)}
+        ^
+2024.05.05 10:44:46 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 87ms[0m
+May 05, 2024 10:44:47 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-44-47-114.md
+May 05, 2024 10:45:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-45-05-685.md
+May 05, 2024 10:45:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-45-06-896.md
+May 05, 2024 10:45:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-45-09-160.md
+May 05, 2024 10:45:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-45-10-071.md
+May 05, 2024 10:45:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-45-10-677.md
+May 05, 2024 10:45:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-45-11-541.md
+May 05, 2024 10:45:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-45-13-412.md
+May 05, 2024 10:45:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-45-14-221.md
+May 05, 2024 10:45:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-45-14-807.md
+May 05, 2024 10:45:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-45-21-664.md
+May 05, 2024 10:45:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-45-23-660.md
+May 05, 2024 10:45:26 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-45-26-521.md
+May 05, 2024 10:46:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-46-18-065.md
+2024.05.05 10:46:18 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/test/scala/pruebas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:559: error: Not one of: `$$', `$'ident, `$'this, `$'BlockExpr, `$'_
+    case(((a,b,c),d))=> writer.println(s"d,$")
+                                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:656)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+May 05, 2024 10:46:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-46-28-206.md
+2024.05.05 10:46:28 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/test/scala/pruebas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:559: error: Not one of: `$$', `$'ident, `$'this, `$'BlockExpr, `$'_
+    case(((a,b,c),d))=> writer.println(s"$d,$a,$")
+                                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:656)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+May 05, 2024 10:46:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-46-35-283.md
+2024.05.05 10:46:35 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/test/scala/pruebas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:559: error: Not one of: `$$', `$'ident, `$'this, `$'BlockExpr, `$'_
+    case(((a,b,c),d))=> writer.println(s"$d,$a,$b,$")
+                                                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:656)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:252)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:559:25: not found: value writer
+    case(((a,b,c),d))=> writer.println(s"$d,$a,$b,$c")
+                        ^^^^^^
+2024.05.05 10:46:47 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.22s[0m
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:549:21: not found: value rutacsv
+  val csvFilePath = rutacsv
+                    ^^^^^^^
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:562:25: not found: value writer
+    case(((a,b,c),d))=> writer.println(s"$d,$a,$b,$c")
+                        ^^^^^^
+2024.05.05 10:47:40 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.3s[0m
+May 05, 2024 10:47:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6615
+2024.05.05 10:48:25 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.68s[0m
+May 05, 2024 10:49:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-49-07-251.md
+May 05, 2024 10:49:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-49-28-439.md
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:567:28: type mismatch;
+ found   : IndexedSeq[IndexedSeq[((Double, Double, Double), Int)]]
+ required: IndexedSeq[IndexedSeq[((Double, Double, Double), Double)]]
+escrivirCsv("pruevaProdP1",crearPruevasProdP(1 to 5,10 to 1000 by 10))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.05 10:50:17 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.22s[0m
+May 05, 2024 10:50:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-50-30-208.md
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:567:28: type mismatch;
+ found   : IndexedSeq[IndexedSeq[((Double, Double, Double), Int)]]
+ required: IndexedSeq[IndexedSeq[((Double, Double, Double), Double)]]
+escrivirCsv("pruevaProdP1",crearPruevasProdP(1 to 5,10 to 1000 by 10))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.05 10:50:32 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.26s[0m
+May 05, 2024 10:50:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_10-50-54-154.md
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:567:28: type mismatch;
+ found   : IndexedSeq[IndexedSeq[((Double, Double, Double), Int)]]
+ required: IndexedSeq[IndexedSeq[((Double, Double, Double), Double)]]
+escrivirCsv("pruevaProdP1",crearPruevasProdP(1 to 5,10 to 1000 by 10))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.05 10:50:56 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.22s[0m
+2024.05.05 10:52:10 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 10s[0m
+2024.05.05 10:53:05 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 11s[0m
+2024.05.05 10:53:23 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.61s[0m
+2024.05.05 10:53:23 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.05 10:53:36 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.05 10:53:36 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 7.06s[0m
+2024.05.05 10:56:40 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.05 10:56:40 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 6.15s[0m
+2024.05.05 10:57:03 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.05 10:57:03 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.77s[0m
+2024.05.05 10:59:20 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 10s[0m
+2024.05.05 10:59:52 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.05 10:59:52 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 8.22s[0m
+2024.05.05 11:00:08 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/test/scala/pruebas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:569: error: Invalid literal number, followed by identifier character
+10 5o
+    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:857)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:342)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+May 05, 2024 11:00:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_11-00-08-672.md
+2024.05.05 11:00:21 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.71s[0m
+2024.05.05 11:02:35 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.05 11:02:35 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 6.73s[0m
+2024.05.05 11:05:19 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 4.88s[0m
+2024.05.05 11:05:43 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 11s[0m
+May 05, 2024 11:05:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_11-05-53-778.md
+May 05, 2024 11:05:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_11-05-57-813.md
+2024.05.05 11:06:13 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 11s[0m
+May 05, 2024 11:06:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7576
+2024.05.05 11:06:57 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.05 11:06:57 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 8.81s[0m
+May 05, 2024 11:07:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7586
+2024.05.05 11:07:06 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.05 11:07:06 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 6.23s[0m
+2024.05.05 11:08:47 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 6.94s[0m
+2024.05.05 11:11:34 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.28s[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@3c7cd7da[Shutting down, pool size = 5, active threads = 4, queued tasks = 0, completed tasks = 124347]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@3c7cd7da[Shutting down, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 124347]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024.05.05 11:20:20 INFO  Started: Metals version 1.3.0 in folders '/home/andresuv/cuartoSemestre/PFC/entregables/matrices' for client Visual Studio Code 1.87.2.[0m
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@4d91273]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2ac40bf9]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@4d91273]
+2024.05.05 11:20:20 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.05.05 11:20:22 INFO  Attempting to connect to the build server...[0m
+2024.05.05 11:20:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/bsp.trace.json or /home/andresuv/.cache/metals/bsp.trace.json[0m
+2024.05.05 11:20:24 INFO  Attempting to connect to the build server...[0m
+2024.05.05 11:20:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andresuv/cuartoSemestre/PFC/entregables/matrices/project/.metals/bsp.trace.json or /home/andresuv/.cache/metals/bsp.trace.json[0m
+2024.05.05 11:20:24 INFO  time: Connected to build server in 2.42s[0m
+2024.05.05 11:20:24 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.05.05 11:20:24 INFO  time: Imported build in 0.12s[0m
+2024.05.05 11:20:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.05 11:20:27 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.05 11:20:27 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.05 11:20:27 INFO  time: indexed workspace in 2.91s[0m
+2024.05.05 11:20:35 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.05 11:20:35 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 6.85s[0m
+2024.05.05 11:20:40 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.05 11:20:40 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.72s[0m
+2024.05.05 11:20:46 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.05 11:20:46 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.35s[0m
+2024.05.05 11:31:02 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 4.76s[0m
+2024.05.05 11:32:15 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 4.76s[0m
+2024.05.05 11:32:55 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 4.91s[0m
+2024.05.05 11:35:14 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 4.66s[0m
+2024.05.05 11:35:34 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/test/scala/pruebas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:558: error: unclosed comment
+/*def escrivirCsvProdP(rutaCsv:String,datos:IndexedSeq[IndexedSeq[((Double, Double, Double),Int)]])={
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+May 05, 2024 11:35:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_11-35-34-922.md
+May 05, 2024 11:35:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_11-35-51-196.md
+2024.05.05 11:37:32 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 4.53s[0m
+May 05, 2024 11:37:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-05/r_compiler-error_(root-test)_11-37-46-532.md
+2024.05.05 11:38:40 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 4.29s[0m
+2024.05.05 11:39:46 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 4.45s[0m
+2024.05.05 11:41:20 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.42s[0m
+2024.05.05 11:42:29 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 4.48s[0m
+2024.05.05 11:42:43 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 4.52s[0m
+2024.05.05 11:46:03 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.41s[0m
+2024.05.05 11:46:19 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.27s[0m
+2024.05.05 11:46:28 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.38s[0m
+2024.05.05 11:46:39 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.95s[0m
+2024.05.05 11:46:43 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.34s[0m
+2024.05.05 11:55:54 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 7.95s[0m
+2024.05.05 11:55:57 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.35s[0m
+2024.05.05 11:58:02 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.32s[0m
+2024.05.05 12:04:51 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.05 12:04:51 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 6.35s[0m
+2024.05.05 12:04:51 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.37s[0m
+2024.05.05 12:07:57 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.27s[0m

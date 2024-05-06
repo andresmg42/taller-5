@@ -556,14 +556,6 @@ def crearPruevasProdP(rangoPruebas: Range, rangoTamañoVector: Range) = {
   } yield (compararProdPunto(tamaño), tamaño)
 }
 
-/*def escrivirCsvProdP(rutaCsv:String,datos:IndexedSeq[IndexedSeq[((Double, Double, Double),Int)]])={
-  val csvFilePath = rutaCsv
-  val writer = new PrintWriter(new File(csvFilePath))
-  datos.foreach(outerVector=>outerVector.foreach{
-    case(((a,b,c),d))=> writer.println(s"$d,$a,$b,$c")
-  })
-
-}*/
 
 def escrivirCSVProdP(
     vec: IndexedSeq[IndexedSeq[((Double, Double, Double), Int)]],
@@ -612,4 +604,9 @@ def escrivirCSVProdP(
 //---pruevas para multMatrizRecPar-multStrassenPar
 //escrivirCsv("multMatrizRecPar-multStrassenPar.CSV", crearPruevas(1 to 10, 5, (multMatrizRecPar, multStrassenPar)))
 
-val datos = crearPruevasProdP(1 to 5, 10 to 10000 by 100)
+///val datos = crearPruevasProdP(1 to 5, 10 to 10000 by 100)
+
+val m1=matrizAlAzar(pow(2,8).toInt,2)
+val m2=matrizAlAzar(pow(2,8).toInt,2)
+
+//compararAlgoritmos(multMatriz,multMatrizPar)(m1,m2)

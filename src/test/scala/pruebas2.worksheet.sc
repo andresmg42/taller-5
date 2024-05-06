@@ -335,7 +335,7 @@ def escrivirCSVProdP(
 //escrivirCsv("multMatriz-multMatrizPar.CSV", crearPruevas(1 to 10, 5, (multMatriz, multMatrizPar))) HECHO!
 
 //---pruevas para multMatrizRec-multMatrizRecPar
-//escrivirCsv("multMatrizRec-multMatrizRecPar.CSV", crearPruevas(1 to 10, 5, (multMatrizRec, multMatrizRecPar)))
+//escrivirCsv("multMatrizRec-multMatrizRecPar.CSV", crearPruevas(1 to 10, 5, (multMatrizRec, multMatrizRecPar))) HECHA HASTA 2-8
 
 //---pruevas para multStrassen-multStrassenPar
 //escrivirCsv("multStrassen-multStrassenPar.CSV", crearPruevas(1 to 10, 5, (multStrassen, multStrassenPar)))
@@ -357,4 +357,5 @@ def escrivirCSVProdP(
 
 //---pruevas para multMatrizRecPar-multStrassenPar
 //escrivirCsv("multMatrizRecPar-multStrassenPar.CSV", crearPruevas(1 to 10, 5, (multMatrizRecPar, multStrassenPar)))
+
 

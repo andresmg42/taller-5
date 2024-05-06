@@ -15695,3 +15695,356 @@ SEVERE: A severe compiler error occurred, full details of the error can be found
 2024.05.05 12:04:51 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 6.35s[0m
 2024.05.05 12:04:51 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.37s[0m
 2024.05.05 12:07:57 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.27s[0m
+2024.05.05 12:31:02 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.4s[0m
+2024.05.05 12:33:29 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 8.15s[0m
+2024.05.05 12:33:29 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.3s[0m
+2024.05.05 12:34:30 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.31s[0m
+2024.05.05 12:34:38 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 7.49s[0m
+2024.05.05 12:37:15 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 7.06s[0m
+2024.05.05 12:37:16 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.26s[0m
+2024.05.05 12:45:59 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.28s[0m
+2024.05.05 12:59:40 INFO  Shutting down server[0m
+2024.05.05 12:59:40 INFO  shutting down Metals[0m
+2024.05.05 12:59:40 INFO  Shut down connection with build server.[0m
+2024.05.05 12:59:40 INFO  Shut down connection with build server.[0m
+2024.05.05 12:59:40 INFO  Exiting server[0m
+2024.05.06 14:40:57 INFO  Started: Metals version 1.3.0 in folders '/home/andresuv/cuartoSemestre/PFC/entregables/matrices' for client Visual Studio Code 1.87.2.[0m
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@7493aec7]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@ddb3e6]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7493aec7]
+2024.05.06 14:40:59 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.05.06 14:40:59 INFO  Attempting to connect to the build server...[0m
+2024.05.06 14:40:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/bsp.trace.json or /home/andresuv/.cache/metals/bsp.trace.json[0m
+2024.05.06 14:40:59 INFO  Attempting to connect to the build server...[0m
+2024.05.06 14:40:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andresuv/cuartoSemestre/PFC/entregables/matrices/project/.metals/bsp.trace.json or /home/andresuv/.cache/metals/bsp.trace.json[0m
+2024.05.06 14:41:00 INFO  time: Connected to build server in 0.9s[0m
+2024.05.06 14:40:59 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.05.06 14:41:00 INFO  time: Imported build in 0.18s[0m
+May 06, 2024 2:41:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2024.05.06 14:41:05 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.06 14:41:07 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.06 14:41:07 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.06 14:41:07 INFO  time: indexed workspace in 5.99s[0m
+2024.05.06 14:41:13 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.06 14:41:13 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 6.71s[0m
+2024.05.06 14:41:16 INFO  time: code lens generation in 2.89s[0m
+2024.05.06 14:41:16 INFO  time: code lens generation in 2.89s[0m
+2024.05.06 14:41:16 INFO  time: code lens generation in 2.06s[0m
+2024.05.06 14:41:29 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.06 14:41:29 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 14s[0m
+2024.05.06 14:42:07 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/main/scala/Benchmark/package.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed comment
+  /*def compararAlgoritmos(a1:AlgoritmoMult, a2:AlgoritmoMult)(m1:Matriz, m2:Matriz):(Double,Double, Double) = {
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.05.06 14:42:10 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/main/scala/Benchmark/package.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed comment
+  /*def compararAlgoritmos(a1:AlgoritmoMult, a2:AlgoritmoMult)(m1:Matriz, m2:Matriz):(Double,Double, Double) = {
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.05.06 14:42:11 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/main/scala/Benchmark/package.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed comment
+  /*def compararAlgoritmos(a1:AlgoritmoMult, a2:AlgoritmoMult)(m1:Matriz, m2:Matriz):(Double,Double, Double) = {
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.05.06 14:43:14 INFO  compiling root (1 scala source)[0m
+2024.05.06 14:43:16 INFO  time: compiled root in 1.6s[0m
+2024.05.06 14:43:33 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 2.47s[0m
+2024.05.06 14:43:39 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.06 14:43:39 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.94s[0m
+2024.05.06 14:44:15 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/main/scala/Benchmark/package.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed comment
+  /*def compararAlgoritmos(a1:AlgoritmoMult, a2:AlgoritmoMult)(m1:Matriz, m2:Matriz):(Double,Double, Double) = {
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.05.06 14:44:21 INFO  compiling root (1 scala source)[0m
+2024.05.06 14:44:21 INFO  time: compiled root in 0.45s[0m
+2024.05.06 14:44:29 INFO  compiling root (1 scala source)[0m
+2024.05.06 14:44:30 INFO  time: compiled root in 1.06s[0m
+2024.05.06 14:44:59 INFO  compiling root (1 scala source)[0m
+2024.05.06 14:45:01 INFO  time: compiled root in 1.03s[0m
+2024.05.06 14:45:09 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 1.23s[0m
+May 06, 2024 2:45:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-45-24-398.md
+May 06, 2024 2:45:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-45-49-955.md
+May 06, 2024 2:45:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-45-51-110.md
+May 06, 2024 2:45:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-45-51-569.md
+May 06, 2024 2:45:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-45-53-072.md
+May 06, 2024 2:45:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-45-54-796.md
+May 06, 2024 2:45:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-45-56-072.md
+May 06, 2024 2:45:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-45-57-167.md
+May 06, 2024 2:45:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-45-58-632.md
+May 06, 2024 2:46:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-21-223.md
+May 06, 2024 2:46:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-22-317.md
+May 06, 2024 2:46:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-32-452.md
+May 06, 2024 2:46:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-33-172.md
+May 06, 2024 2:46:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-33-975.md
+May 06, 2024 2:46:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-34-508.md
+May 06, 2024 2:46:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-36-232.md
+May 06, 2024 2:46:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-40-468.md
+May 06, 2024 2:46:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-41-506.md
+May 06, 2024 2:46:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-42-296.md
+May 06, 2024 2:46:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-47-363.md
+May 06, 2024 2:46:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-55-214.md
+May 06, 2024 2:46:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-46-59-359.md
+[31merror[39m: src/test/scala/pruebas2.worksheet.sc:362:21: type mismatch;
+ found   : Double
+ required: Int
+val m1=matrizAlAzar(pow(2,6),2)
+                    ^^^^^^^^
+[31merror[39m: src/test/scala/pruebas2.worksheet.sc:364:1: not enough arguments for method compararAlgoritmos: (m1: Matrices.Matriz, m2: Matrices.Matriz): (Double, Double, Double).
+Unspecified value parameters m1, m2.
+compararAlgoritmos(multMatriz,multMatriz)()
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.06 14:47:02 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.41s[0m
+[31merror[39m: pruebas.worksheet.sc:323 (mdoc generated code) not found: value comparar
+val res0 = comparar; $doc.binder(res0, 608, 0, 608, 8)
+           ^
+
+2024.05.06 14:47:15 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.4s[0m
+2024.05.06 14:47:21 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.77s[0m
+2024.05.06 14:47:22 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.6s[0m
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:609:21: type mismatch;
+ found   : Double
+ required: Int
+val m1=matrizAlAzar(pow(2,6),2)
+                    ^^^^^^^^
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:611:1: not enough arguments for method compararAlgoritmos: (m1: Matrices.Matriz, m2: Matrices.Matriz): (Double, Double, Double).
+Unspecified value parameters m1, m2.
+compararAlgoritmos(multMatriz,multMatriz)()
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.06 14:47:24 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.37s[0m
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:609:21: type mismatch;
+ found   : Double
+ required: Int
+val m1=matrizAlAzar(pow(2,6),2)
+                    ^^^^^^^^
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:611:1: not enough arguments for method compararAlgoritmos: (m1: Matrices.Matriz, m2: Matrices.Matriz): (Double, Double, Double).
+Unspecified value parameters m1, m2.
+compararAlgoritmos(multMatriz,multMatriz)()
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.06 14:47:32 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.32s[0m
+May 06, 2024 2:47:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-47-50-251.md
+May 06, 2024 2:47:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-47-50-929.md
+May 06, 2024 2:48:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-48-08-469.md
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:609:21: type mismatch;
+ found   : Double
+ required: Int
+val m1=matrizAlAzar(pow(2,6),2)
+                    ^^^^^^^^
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:610:21: type mismatch;
+ found   : Double
+ required: Int
+val m2=matrizAlAzar(pow(2,6),2)
+                    ^^^^^^^^
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:612:1: not enough arguments for method compararAlgoritmos: (m1: Matrices.Matriz, m2: Matrices.Matriz): (Double, Double, Double).
+Unspecified value parameter m2.
+compararAlgoritmos(multMatriz,multMatrizPar)(m1)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.05.06 14:48:19 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.35s[0m
+May 06, 2024 2:48:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-48-48-051.md
+May 06, 2024 2:48:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-48-48-579.md
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:609:21: type mismatch;
+ found   : Double
+ required: Int
+val m1=matrizAlAzar(pow(2,6),2)
+                    ^^^^^^^^
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:610:21: type mismatch;
+ found   : Double
+ required: Int
+val m2=matrizAlAzar(pow(2,6),2)
+                    ^^^^^^^^
+2024.05.06 14:48:54 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.29s[0m
+May 06, 2024 2:49:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-49-01-129.md
+May 06, 2024 2:49:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-49-05-404.md
+2024.05.06 14:49:09 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 1.75s[0m
+May 06, 2024 2:49:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-49-23-498.md
+May 06, 2024 2:49:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-06/r_compiler-error_(root-test)_14-49-25-977.md
+2024.05.06 14:49:44 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 17s[0m
+2024.05.06 14:50:02 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.57s[0m
+2024.05.06 14:50:09 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.06 14:50:09 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 6.09s[0m
+2024.05.06 14:50:23 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.42s[0m
+2024.05.06 14:50:23 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.06 14:50:32 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.06 14:50:32 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.53s[0m
+2024.05.06 14:51:09 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.06 14:51:09 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 30s[0m
+2024.05.06 14:51:40 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.59s[0m
+2024.05.06 14:52:17 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.06 14:52:17 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 14s[0m
+2024.05.06 14:57:48 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 1.77s[0m
+2024.05.06 15:00:15 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.06 15:00:15 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 5.65s[0m
+May 06, 2024 3:00:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 19052, end 19071, length 19053
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 19052, end 19071, length 19053
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 19052, end 19071, length 19053
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)
+	at java.base/java.lang.String.substring(String.java:2709)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.05.06 15:00:34 WARN  thread interrupt: Evaluating Worksheet pruebas.worksheet.sc[0m
+2024.05.06 15:00:34 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 18s[0m
+2024.05.06 15:00:37 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.44s[0m
+2024.05.06 15:00:39 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.58s[0m
+2024.05.06 15:00:39 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.56s[0m
+May 06, 2024 3:00:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1634
+2024.05.06 15:00:49 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.55s[0m
+2024.05.06 15:00:49 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.48s[0m
+2024.05.06 15:00:57 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.58s[0m

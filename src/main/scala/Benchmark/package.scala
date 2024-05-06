@@ -22,14 +22,25 @@ package object Benchmark {
     (timeA1.value, timeA2.value, speedUp)
   }
 
-  def calcularTiempoAlgoritmo(a:AlgoritmoMult)(m1:Matriz,m2:Matriz):Double={
-      val timeA= config(
-      KeyValue(Key.exec.minWarmupRuns -> 20),
-      KeyValue(Key.exec.maxWarmupRuns -> 60),
+
+def compararAlgoritmos2(a1:AlgoritmoMult, a2:AlgoritmoMult)(m1:Matriz, m2:Matriz):(Double,Double, Double) = {
+    val timeA1 = config(
+      KeyValue(Key.exec.minWarmupRuns -> 10),
+      KeyValue(Key.exec.maxWarmupRuns -> 30),
       KeyValue(Key.verbose -> false)
-    ) withWarmer(new Warmer.Default) measure (a(m1,m2))
-    timeA.value
+    ) withWarmer(new Warmer.Default) measure (a1(m1,m2))
+
+    val timeA2 = config(
+      KeyValue(Key.exec.minWarmupRuns -> 10),
+      KeyValue(Key.exec.maxWarmupRuns -> 30),
+      KeyValue(Key.verbose -> false)
+    ) withWarmer(new Warmer.Default) measure (a2(m1,m2))
+
+    val speedUp= timeA1.value/timeA2.value
+    (timeA1.value, timeA2.value, speedUp)
   }
+
+
 
   /*def compararMultMatriz(n:Int) = {
     // Para probar con paralelismo de datos

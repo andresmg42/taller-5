@@ -16127,3 +16127,203 @@ WARNING: Unmatched cancel notification for request id 13
 2024.05.06 22:54:03 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.52s[0m
 2024.05.06 22:54:26 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.5s[0m
 2024.05.06 22:54:30 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.47s[0m
+2024.05.06 22:55:24 INFO  Shutting down server[0m
+2024.05.06 22:55:24 INFO  shutting down Metals[0m
+2024.05.06 22:55:24 INFO  Shut down connection with build server.[0m
+2024.05.06 22:55:24 INFO  Shut down connection with build server.[0m
+2024.05.06 22:55:24 INFO  Exiting server[0m
+2024.05.07 14:20:48 INFO  Started: Metals version 1.3.0 in folders '/home/andresuv/cuartoSemestre/PFC/entregables/matrices' for client Visual Studio Code 1.87.2.[0m
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@4d91273]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2ac40bf9]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@4d91273]
+2024.05.07 14:20:48 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.05.07 14:20:49 INFO  Attempting to connect to the build server...[0m
+2024.05.07 14:20:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/bsp.trace.json or /home/andresuv/.cache/metals/bsp.trace.json[0m
+2024.05.07 14:20:53 INFO  Attempting to connect to the build server...[0m
+2024.05.07 14:20:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andresuv/cuartoSemestre/PFC/entregables/matrices/project/.metals/bsp.trace.json or /home/andresuv/.cache/metals/bsp.trace.json[0m
+2024.05.07 14:20:53 INFO  time: Connected to build server in 3.83s[0m
+2024.05.07 14:20:53 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.05.07 14:20:53 INFO  time: Imported build in 0.15s[0m
+2024.05.07 14:20:54 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/test/scala/pruebas2.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.3[0m
+May 07, 2024 2:20:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+May 07, 2024 2:20:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2024.05.07 14:20:56 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.07 14:20:56 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.07 14:20:56 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.07 14:20:56 INFO  time: indexed workspace in 2.38s[0m
+2024.05.07 14:21:02 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 5.04s[0m
+2024.05.07 14:21:04 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 1.46s[0m
+2024.05.07 14:21:05 INFO  time: code lens generation in 2.15s[0m
+2024.05.07 14:21:05 INFO  time: code lens generation in 2.75s[0m
+2024.05.07 14:21:05 INFO  time: code lens generation in 2.75s[0m
+2024.05.07 14:21:05 INFO  time: code lens generation in 2.75s[0m
+2024.05.07 15:02:46 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 1.28s[0m
+2024.05.07 15:24:43 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 2.95s[0m
+2024.05.07 15:26:30 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 2.23s[0m
+2024.05.07 15:29:15 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 2.69s[0m
+May 07, 2024 3:29:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 291
+2024.05.07 15:29:38 INFO  time: code lens generation in 1.1s[0m
+May 07, 2024 3:30:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 344
+May 07, 2024 3:30:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 346
+May 07, 2024 3:30:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 348
+May 07, 2024 3:30:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 349
+May 07, 2024 3:30:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-30-16-488.md
+May 07, 2024 3:30:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-30-33-706.md
+May 07, 2024 3:30:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-30-40-965.md
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:614:24: type mismatch;
+ found   : (Int, Int)
+ required: scala.collection.IterableOnce[?]
+(2 until 7) flatMap(x=>(7,x))
+                       ^^^^^
+2024.05.07 15:30:46 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.99s[0m
+May 07, 2024 3:31:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-31-40-692.md
+May 07, 2024 3:31:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-31-51-345.md
+May 07, 2024 3:31:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-31-59-821.md
+May 07, 2024 3:32:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-32-01-414.md
+2024.05.07 15:32:05 ERROR Failed to tokenize input for semantic tokens for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/test/scala/pruebas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:614: error: Invalid literal number, followed by identifier character
+(2 until 7) flatMap(x=>(1ut))
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:857)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:342)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+May 07, 2024 3:32:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-32-05-169.md
+May 07, 2024 3:32:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 678
+May 07, 2024 3:32:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-32-41-724.md
+May 07, 2024 3:32:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-32-48-832.md
+May 07, 2024 3:32:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-32-56-368.md
+2024.05.07 15:33:01 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.52s[0m
+May 07, 2024 3:40:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-40-08-208.md
+May 07, 2024 3:40:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-40-13-438.md
+May 07, 2024 3:40:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-40-14-073.md
+May 07, 2024 3:40:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-40-15-349.md
+May 07, 2024 3:40:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-40-20-613.md
+May 07, 2024 3:40:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-40-25-789.md
+May 07, 2024 3:40:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-40-27-345.md
+May 07, 2024 3:40:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-40-40-351.md
+May 07, 2024 3:40:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-40-40-812.md
+May 07, 2024 3:40:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-40-41-690.md
+May 07, 2024 3:40:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-40-42-282.md
+May 07, 2024 3:42:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-42-38-947.md
+May 07, 2024 3:42:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-42-40-996.md
+May 07, 2024 3:43:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-43-16-093.md
+May 07, 2024 3:43:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-43-18-071.md
+May 07, 2024 3:43:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-43-19-222.md
+May 07, 2024 3:43:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-43-20-181.md
+May 07, 2024 3:43:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-43-20-908.md
+May 07, 2024 3:44:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/.reports/metals-full/2024-05-07/r_compiler-error_(root-test)_15-44-05-607.md
+2024.05.07 15:46:19 INFO  Shutting down server[0m
+2024.05.07 15:46:19 INFO  shutting down Metals[0m
+2024.05.07 15:46:19 INFO  Shut down connection with build server.[0m
+2024.05.07 15:46:19 INFO  Shut down connection with build server.[0m
+2024.05.07 15:46:19 INFO  Exiting server[0m
+2024.05.07 17:34:09 INFO  Started: Metals version 1.3.0 in folders '/home/andresuv/cuartoSemestre/PFC/entregables/matrices' for client Visual Studio Code 1.87.2.[0m
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@6450302]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@51b790b]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6450302]
+2024.05.07 17:34:09 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.05.07 17:34:10 INFO  Attempting to connect to the build server...[0m
+2024.05.07 17:34:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andresuv/cuartoSemestre/PFC/entregables/matrices/.metals/bsp.trace.json or /home/andresuv/.cache/metals/bsp.trace.json[0m
+2024.05.07 17:34:14 INFO  Attempting to connect to the build server...[0m
+2024.05.07 17:34:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andresuv/cuartoSemestre/PFC/entregables/matrices/project/.metals/bsp.trace.json or /home/andresuv/.cache/metals/bsp.trace.json[0m
+2024.05.07 17:34:14 INFO  time: Connected to build server in 3.41s[0m
+2024.05.07 17:34:14 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.05.07 17:34:14 INFO  no build target found for /home/andresuv/cuartoSemestre/PFC/entregables/matrices/src/test/scala/pruebas.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.05.07 17:34:14 INFO  time: Imported build in 0.21s[0m
+2024.05.07 17:34:16 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.07 17:34:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.07 17:34:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2024.05.07 17:34:17 INFO  time: indexed workspace in 2.47s[0m
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:616:24: type mismatch;
+ found   : Unit
+ required: Int
+def esPrimo(n:Int):Int=if(n==1)n 
+                       ^^
+2024.05.07 17:34:21 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 3.48s[0m
+[31merror[39m: src/test/scala/pruebas.worksheet.sc:616:24: type mismatch;
+ found   : Unit
+ required: Int
+def esPrimo(n:Int):Int=if(n==1)n 
+                       ^^
+2024.05.07 17:34:21 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.73s[0m
+2024.05.07 17:34:22 INFO  time: code lens generation in 1.76s[0m
+2024.05.07 17:34:22 INFO  time: code lens generation in 1.76s[0m
+2024.05.07 17:34:22 INFO  time: code lens generation in 1.19s[0m
+2024.05.07 17:34:22 INFO  time: code lens generation in 1.76s[0m
+2024.05.07 17:34:22 INFO  time: code lens generation in 1.77s[0m
+2024.05.07 17:34:47 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 2.27s[0m
+2024.05.07 17:35:22 INFO  compiling root (1 scala source)[0m
+2024.05.07 17:35:24 INFO  time: compiled root in 2.41s[0m
+2024.05.07 17:35:40 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 1.05s[0m
+2024.05.07 17:35:48 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.82s[0m
+2024.05.07 17:37:43 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.74s[0m
+2024.05.07 17:39:19 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.61s[0m
+2024.05.07 17:39:33 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.52s[0m
+2024.05.07 17:39:47 INFO  time: evaluated worksheet 'pruebas.worksheet.sc' in 0.56s[0m
+2024.05.07 17:39:50 INFO  time: evaluated worksheet 'pruebas2.worksheet.sc' in 0.53s[0m

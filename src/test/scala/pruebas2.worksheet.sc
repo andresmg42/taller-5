@@ -275,7 +275,7 @@ def crearPruevas(
   } yield for {
     rep <- 1 to numPruebas
   } yield (
-    compararAlgoritmos(algoritmos._1, algoritmos._2)(mp1, mp2),
+    compararAlgoritmos2(algoritmos._1, algoritmos._2)(mp1, mp2),
     pow(2, n)
   )
 
